@@ -14,7 +14,7 @@
     console.log('response', response);
     const getValue = async () => {
         try {
-            response.value = await axios.get("/api/test-me");
+            response.value = await axios.get("/api/hello");
             console.log('line 18', response.value);
         } catch (error) {
             // Do something with the error
